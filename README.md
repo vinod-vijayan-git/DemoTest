@@ -1,7 +1,7 @@
 # UITestsBelong
 
 Notes:
-chromedriver and geckodriver is macOS compatible.
+chromedriver and geckodriver present in this repo macOS compatible.
 please replace respective drivers with Platform you are going to run from below url
 
 ChromeDiver
