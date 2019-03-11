@@ -18,4 +18,4 @@ OR
 
 mvn clean test -Dbrowser=firefox
 
-Note: This test will be run uninterrupted because emailId will be generated with Random number example: test3456@testauto.com
+Note: This test can be run uninterrupted(No datasetup required) because emailId will be generated with Random number example: test3456@testauto.com
