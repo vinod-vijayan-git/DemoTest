@@ -16,7 +16,6 @@ public class hooks {
     @After
     public void tearDown(){
         driver.close();
-        driver.quit();
     }
 
     private String getParameter(String name) {
