@@ -10,7 +10,10 @@ https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/
 FirefoxDriver
 https://github.com/mozilla/geckodriver/releases/tag/v0.21.0
 
-#Command to runtest
-#mvn clean test -Dbrowser=chrome
-#OR
-#mvn clean test -Dbrowser=firefox
+Command to runtest
+
+mvn clean test -Dbrowser=chrome
+
+OR
+
+mvn clean test -Dbrowser=firefox
