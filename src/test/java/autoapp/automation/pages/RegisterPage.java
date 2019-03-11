@@ -3,7 +3,6 @@ package autoapp.automation.pages;
 import autoapp.automation.utility.BrowserDriver;
 import org.openqa.selenium.By;
 
-import java.util.Random;
 
 public class RegisterPage extends BasePage{
 
