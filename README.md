@@ -17,3 +17,5 @@ mvn clean test -Dbrowser=chrome
 OR
 
 mvn clean test -Dbrowser=firefox
+
+Note: This test will be run uninterrupted because emailId will be generated with Random number example: test3456@testauto.com
