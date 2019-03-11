@@ -2,7 +2,6 @@ package autoapp.automation.stepDef;
 
 import autoapp.automation.pages.PersonalInfoPage;
 import autoapp.automation.pages.RegisterPage;
-import autoapp.automation.utility.BrowserDriver;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -10,8 +9,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class RegisterStepDef {
-
-    public BrowserDriver driver;
 
     @Given("^Automation practice application is opened$")
     public void automation_practice_application_is_opened() throws Throwable {
