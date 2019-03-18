@@ -1,14 +1,8 @@
 # UITestsBelong
 
 Notes:
-chromedriver and geckodriver present in this repo macOS compatible.
+Add all browser drivers and create util class that loads driver based on platform
 please replace respective drivers with Platform you are going to run from below url
-
-ChromeDiver
-https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/
-
-FirefoxDriver
-https://github.com/mozilla/geckodriver/releases/tag/v0.21.0
 
 Command to runtest
 
@@ -18,4 +12,4 @@ OR
 
 mvn clean test -Dbrowser=firefox
 
-Note: This test can be run uninterrupted(No datasetup required) because emailId will be generated with Random number example: test3456@testauto.com
+Add a sample step that can click element using JAVA SCRIPT
