@@ -1,17 +1,10 @@
 # UITestsBelong
 
-Task 1
-Add all browser drivers and create util class that loads driver based on platform
-please replace respective drivers with Platform you are going to run from below url
+Write feature file , step definitions and if possible pages for any of the below two requirements 
 
-Task 2
-Command to runtest
+Site URL: http://automationpractice.com/
 
-mvn clean test -Dbrowser=chrome
-
-OR
-
-mvn clean test -Dbrowser=firefox
-
-Task 3
-Add a sample step that can click element using JAVA SCRIPT
+1.	While registering, if the email address is incorrect. User should see an error message
+2.	Check whether Megamenu works (Dresses -> Summer dresses)
+3.	On the Summer dresses page. Click on Sort By: Price and validate whether the productgrid is arranged properly
+4	Select a dress and change the color (Blue) and then add the item to cart, Validate	whether same product name, color and quantity are displayed in Cart Summary page.
